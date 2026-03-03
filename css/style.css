@@ -176,3 +176,21 @@
   cursor: pointer;
 }
 /* End Service Area */
+/* Start footer Area*/
+footer.footer-area .container {
+  /*padding: 5rem 0;*/
+  background: url(../img/footer-bg.png) no-repeat;
+}
+footer.footer-area .social h5 {
+  font: normal 500 18px/30px var(--roboto);
+}
+footer.footer-area .social a > i {
+  font-size: 22px;
+  color: var(--border-color);
+  padding: 2rem;
+  transition: color 0.4s ease;
+}
+footer.footer-area .social a:hover > i {
+  color: var(--primary-color);
+}
+/* Start footer Area*/

@@ -13,7 +13,8 @@
     <!-- CUstom CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
-
+    <!-- Responsive css file -->
+    <link rel="stylesheet" href="css/responsive.css">
 
 
 </head>
@@ -280,7 +281,26 @@
             </div>
         </section>
         <!--End Services Area-->
-
+        <footer class="footer-area">
+            <div class="container">
+                <div class="site-logo text-center py-4">
+                    <a href="#"><img src="img/logo.png"></a>
+                </div>
+                <div class="social text-center">
+                    <h5 class="text-uppercase">Follow me</h5>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="copyright text-center">
+                    <p class="parag">
+                        Copyright &copy;2026 All rights reserved | Template desenvolvido por
+                        <a href="#"><span style="color: var(--primary-color);">Rodrigo</span></a>
+                    </p>
+                </div>
+            </div>
+        </footer>
     </main>
     <!--End Main Area-->
     <script type=" text/javascript" src="js/bootstrap.min.js">
